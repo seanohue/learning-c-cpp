@@ -2,7 +2,8 @@
 #include <string.h>
 
 int find_string (char search_string[], char sub_string[]) {
-  char *p1, *p2, *p3;
+  // Use pointers to keep track of places in each string
+  char *p1, *p2, *p3; // p3 is kind of like a "temp" variable?
 
   p1 = search_string;
   p2 = sub_string;
